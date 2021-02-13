@@ -9,6 +9,7 @@ const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 
 var userChoice = [];
 
+var password = "";
 
 
 function getLength() {
@@ -44,36 +45,27 @@ function passwordArray() {
 
   if(userChoice.length <1) {
     window.alert("You much choose at least one option to create a password.")
-    passwordArray()
+    passwordArray();
   }
 };
 
+//function passwordGen() {
+//  for(var i = 0; i <=lengthOf; i++);
+//  password = password + Math.floor(Math.random() * userChoice.length);
+//}
 
 
 getLength();
 
 passwordArray();
 
-console.log(userChoice);
-//var lengthOf = parseInt(window.prompt("How many characters long would you like password to be? Must be at least 8 and no more than 128."));
+console.log(lenghtOf);
 
+//passwordGen();
 
-//while (lengthOf < 8 || lengthOf > 128 || "") {
-  
-//  window.prompt("Your choice must be no less than 8 and no more than 128.");
-//  break;
-//}
+//console.log(passwordGen);
 
-
-
-//var specialCharConfirm = window.confirm("Would you like your password to contain special characters?")
-
-//var lowerAlphConfirm = window.confirm("Would you like your password to contain lowercase letters?")
-
-//var upperCaseConfirm = window.confirm("Would you like your password to contain uppercase letters?")
-
-//var numbersConfirm = window.confirm("Would you like your password to contain numbers?")
-
+//console.log(userChoice);
 
 
 // Get references to the #generate element
