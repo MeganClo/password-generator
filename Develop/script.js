@@ -11,16 +11,20 @@ var userChoice = [];
 
 var password = "";
 
+var lengthOf = "";
+
 
 function getLength() {
-  var lengthOf = parseInt(window.prompt("How many characters long would you like password to be? Must be at least 8 and no more than 128."));
+  lengthOf = parseInt(window.prompt("How many characters long would you like password to be? Must be at least 8 and no more than 128."));
   if (lengthOf >= 8 && lengthOf <= 128) {
+    console.log(lengthOf);
     return lengthOf;
   } else {
     window.alert("Your choice must be no less than 8 and no more than 128.");
   getLength();
   }
-};
+}; 
+
 
 function passwordArray() {
   var specialCharConfirm = window.confirm("Would you like your password to contain special characters?");
@@ -43,27 +47,31 @@ function passwordArray() {
     (userChoice) = userChoice.concat(numbers);
   } else (userChoice) = (userChoice);
 
-  if(userChoice.length <1) {
+  if (userChoice.length < 1) {
     window.alert("You much choose at least one option to create a password.")
     passwordArray();
   }
 };
 
-//function passwordGen() {
-//  for(var i = 0; i <=lengthOf; i++);
-//  password = password + Math.floor(Math.random() * userChoice.length);
-//}
+
+
+function passwordGen() {
+  for (var i = 0; i <= lengthOf; i++);
+  password = password + Math.floor(Math.random() * userChoice.length);
+};
 
 
 getLength();
 
+
+
 passwordArray();
 
-console.log(lenghtOf);
+//console.log(lenghtOf);
 
-//passwordGen();
+passwordGen();
 
-//console.log(passwordGen);
+console.log(passwordGen);
 
 //console.log(userChoice);
 
