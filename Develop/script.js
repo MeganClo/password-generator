@@ -56,9 +56,13 @@ function passwordArray() {
 
 
 function passwordGen() {
-  for (var i = 0; i <= lengthOf; i++);
+  for (var i = 0; i < lengthOf; i++);
   password = password + Math.floor(Math.random() * userChoice.length);
 };
+
+
+
+
 
 
 getLength();
@@ -67,13 +71,12 @@ getLength();
 
 passwordArray();
 
-//console.log(lenghtOf);
+
 
 passwordGen();
 
 console.log(passwordGen);
 
-//console.log(userChoice);
 
 
 // Get references to the #generate element
