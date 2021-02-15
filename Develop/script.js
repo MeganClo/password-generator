@@ -56,9 +56,15 @@ function passwordArray() {
 
 
 function passwordGen() {
-  for (var i = 0; i < lengthOf; i++);
-  password = password + Math.floor(Math.random() * userChoice.length);
+  console.log("started passwordGen");
+  for (var i = 0; i < lengthOf; i++) {
+  let choice = Math.floor(Math.random() * userChoice.length);
+  password = password + userChoice[choice];
+  console.log(password);
+  }
 };
+
+
 
 
 
@@ -75,7 +81,6 @@ passwordArray();
 
 passwordGen();
 
-console.log(passwordGen);
 
 
 
