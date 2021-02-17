@@ -14,5 +14,5 @@ https://meganclo.github.io/password-generator/
 
 
 ## Contributions
-HTML and CSS were cloned from Xander Rapstine
-JavaScript was written my Megan Close
+* HTML and CSS were cloned from Xander Rapstine
+* JavaScript was written my Megan Close
