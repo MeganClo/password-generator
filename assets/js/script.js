@@ -55,7 +55,6 @@ function passwordArray() {
   }
 };
 
-
 // Function to generate the password given the user's requests/requirements. 
 function passwordGen() {
   for (var i = 0; i < lengthOf; i++) {
@@ -64,13 +63,10 @@ function passwordGen() {
   }
 };
 
-
 // Function to clear the previous password so User can generate a new password without a page refresh. 
 function clearPrevious() {
   password = "";
 }
-
-
 
 // function that executes previous functions in a specific order. 
 function generatePassword() {
@@ -79,10 +75,6 @@ function generatePassword() {
   passwordArray();
   passwordGen();
 }
-
-
-
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
