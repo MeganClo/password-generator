@@ -9,6 +9,8 @@ A password generator that will generate a random password based off of specific 
 * JavaScript
 
 ## Website
+https://meganclo.github.io/password-generator/
+
 
 
 ## Contributions
