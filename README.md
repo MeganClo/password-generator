@@ -12,3 +12,5 @@ A password generator that will generate a random password based off of specific 
 
 
 ## Contributions
+HTML and CSS were cloned from Xander Rapstine
+JavaScript was written my Megan Close
